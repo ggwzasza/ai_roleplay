@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Kivy / Buildozer
+bin/
+.buildozer/
+.buildozer0/
+.buildozer1/
+.buildozer2/
+.buildozer3/
+.buildozer4/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific (local libs for Windows)
+libs/
+*.exe
+*.dll
+
+# Logs
+*.log
