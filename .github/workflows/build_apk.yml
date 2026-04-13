@@ -20,7 +20,7 @@ jobs:
         run: |
           pip install buildozer cython
           sudo apt-get update -qq
-          sudo apt-get install -qq -y zip unzip openjdk-17-jdk autoconf libtool libffi-dev python3-dev
+          sudo apt-get install -qq -y zip unzip openjdk-17-jdk autoconf libtool libtool-bin libffi-dev python3-dev
 
       - name: Build Debug APK
         run: buildozer -v android debug
